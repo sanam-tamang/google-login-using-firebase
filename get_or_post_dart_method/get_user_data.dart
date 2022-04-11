@@ -30,7 +30,7 @@ Future getUserDataFromDabase(String id) async {
       throw Exception('Data is not found');
     }
   } catch (e) {
-    //later this error should not be modifitied according to the error may occur from the server
+    //later this error should be modifitied according to the error may occur from the server
     throw Exception(e.toString());
   }
 }
