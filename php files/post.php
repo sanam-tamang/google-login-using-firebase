@@ -35,7 +35,7 @@
                     }
 
                     else{
-                        echo "Error getting data";
+                        echo "Error inserting  data";
                     }
         
        }
